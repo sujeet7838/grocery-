@@ -78,7 +78,7 @@ class _MyAppState extends State<MyApp> {
             providers: [
               ChangeNotifierProvider(create: (_) {
                 return themeChangeProvider;
-              }),
+              }), 
               ChangeNotifierProvider(
                 create: (_) => ProductsProvider(),
               ),
